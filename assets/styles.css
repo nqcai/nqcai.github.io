@@ -4,18 +4,17 @@ body {
     overflow-x: hidden; 
 }
 
-navbar, nav, nav a {
+.container-fluid {
+    padding: 8px 5%; 
+    margin: 0%; 
+}
+
+.navbar {
     background-color: rgba(204, 78, 92, 0.15); 
     color: #414141; 
     font-size: 18px; 
     font-weight: 600; 
-/*    margin: 20px 5%;*/
-    padding: 0px; 
-}
-
-.container-fluid {
-    padding: 8px 5%; 
-    margin: 0%; 
+    margin-top: 10px; 
 }
 
 /* Intro */
@@ -31,7 +30,7 @@ navbar, nav, nav a {
 }
 
 #intro-image img {
-    width: 450px; 
+    width: 500px; 
     padding-left: 100px; 
 }
 
@@ -70,6 +69,7 @@ navbar, nav, nav a {
 
 /* Body */
 .body-container {
+    margin-top: -50px; 
     padding-right: 0px; 
     padding-top: 0px; 
     padding-bottom: 100px; 
@@ -139,7 +139,7 @@ navbar, nav, nav a {
     
     #churro-image {
         width: 400px; 
-        margin-left: -35px;
+        margin-left: -20%;
         padding-top: 40px; 
     }
 
@@ -209,6 +209,7 @@ navbar, nav, nav a {
     font-size: 24px; 
     font-weight: 600; 
     padding-bottom: 20px; 
+    
 }
 
 .exp-inst-logo img {
@@ -226,6 +227,10 @@ navbar, nav, nav a {
 
 .exp-desc {
     padding-top: 20px; 
+}
+
+.next {
+    color: #414141; 
 }
 
 @media (max-width: 720px) {
@@ -260,6 +265,7 @@ navbar, nav, nav a {
 
 /* Projects*/
 .projects-container {
+    margin-top: -400px; 
     padding-top: 300px; 
     padding-bottom: 200px; 
     background: linear-gradient(-10deg, rgba(10, 126, 140, 0.1) 80%, #FFFEF9 80%); 
@@ -341,6 +347,11 @@ navbar, nav, nav a {
     margin-top: -25px; 
     margin-left: 20px; 
     border-bottom: 20px solid #F6D592; 
+}
+
+a {
+    text-decoration: underline; 
+    color: #cc4e5c; 
 }
 
 
