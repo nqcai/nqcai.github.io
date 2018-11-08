@@ -367,6 +367,19 @@ a {
     color: #cc4e5c; 
 }
 
+.footer-social a {
+    text-decoration: none; 
+    color: white; 
+    margin: 5px; 
+}
+
+.fa-github {
+    transform: scale(1.3);     
+}
+
+.fa-linkedin, .fa-facebook-square {
+    transform: scale(1.25); 
+}
 
 
 
