@@ -125,6 +125,10 @@ body {
         width: 600px; 
         margin: 0px; 
     }
+    
+    #churr-container {
+        padding-bottom: 0px; 
+    }
 }
 
 @media (max-width: 720px) {
@@ -134,13 +138,13 @@ body {
     }
     
     .about-container {
-        padding-top: 100px; 
+        padding-top: 0px; 
     }
     
     #churro-image {
         width: 400px; 
-        margin-left: -20%;
-        padding-top: 40px; 
+        margin-left: -10%;
+        padding-top: 0px; 
     }
 
     #signature {
@@ -190,7 +194,8 @@ body {
 
 .exp-wrapper {
     position: relative; 
-    top: -350px; 
+    top: -350px;
+    
 }
 
 @media (max-width: 992px) {
@@ -234,7 +239,14 @@ body {
 }
 
 @media (max-width: 720px) {
+    .exp-wrapper {
+        position: relative; 
+        top: 0px;
+        margin-bottom: 50px; 
+    }
+    
     .exp-container {
+        height: 400px; 
         padding-bottom: 50px;     
     }
     
@@ -249,11 +261,11 @@ body {
     }
 
     .exp-inst-text {
-        font-size: 12px; 
+        font-size: 13px; 
     }
 
     .exp-inst-name {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .exp-desc {
@@ -273,6 +285,7 @@ body {
 
 @media (max-width: 992px) {
     .projects-container {
+        margin-top: -100px; 
         background: linear-gradient(-10deg, rgba(10, 126, 140, 0.1) 90%, #FFFEF9 90%);
     }
 }
