@@ -22,7 +22,7 @@ body {
 .intro-container {
     padding-top: 150px; 
     padding-bottom: 140px;
-    background: linear-gradient(-10deg, #FFFEF9 40%, rgba(204, 78, 92, 0.15) 40%)
+    background: linear-gradient(-10deg, #FFFEF9 50%, rgba(204, 78, 92, 0.15) 50%)
 }
 
 #intro-image {
@@ -30,7 +30,7 @@ body {
 }
 
 #intro-image img {
-    width: 500px; 
+    width: 600px; 
     padding-left: 100px; 
 }
 
@@ -69,7 +69,7 @@ body {
 
 /* Body */
 .body-container {
-    margin-top: -50px; 
+    margin-top: -150px; 
     padding-right: 0px; 
     padding-top: 0px; 
     padding-bottom: 100px; 
@@ -323,13 +323,13 @@ body {
 }
 
 .footer-rectangle {
-    height: 675px; 
+    height: 500px; 
     background-color: #303030; 
     margin: -3px 0px;  
 }
 
 .footer-text-container {
-    padding-top: 250px; 
+    padding-top: 150px; 
 }
 
 .footer-line {
