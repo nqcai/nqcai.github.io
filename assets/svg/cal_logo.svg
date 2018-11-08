@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px"
+	 height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+
+<defs>
+    <style type="text/css"><![CDATA[
+      	  #bear {
+		  animation: dognod 3s infinite;
+		  transform-origin: right center;
+
+		}
+
+		@keyframes dognod {
+
+		  34% {
+		    transform: rotate(0deg); 
+		  }
+
+		  50% {
+		    transform: rotate(5deg); 
+		  }
+
+		  66% {
+		    transform: rotate(0deg); 
+		  }
+
+		}
+
+		.lid {
+		  animation: blink 3s infinite;
+		}
+
+		@keyframes blink {
+		  5% {
+		    transform: translate(0px, 50px); 
+		  }
+
+		  13% {
+		    transform: translate(0px, 0px);  
+		  }
+
+		  18% {
+		    transform: translate(0px, 50px); 
+		  }
+
+		  26% {
+		    transform: translate(0px, 0px);  
+		  }
+
+
+		}
+    ]]></style>
+</defs>
+
+<g id="circle">
+	<g>
+		<g>
+			<circle fill="#114368" cx="513" cy="513" r="511"/>
+		</g>
+	</g>
+</g>
+
+<g id="bear">
+	<g id="Left_ear">
+		<circle fill="#CB8350" cx="277.375" cy="249.461" r="79.625"/>
+		<circle fill="#57351E" cx="277.375" cy="250.461" r="55.516"/>
+	</g>
+	<g id="Right_ear">
+		<circle fill="#CB8350" cx="751.625" cy="249.836" r="79.625"/>
+		<circle fill="#57351E" cx="751.625" cy="250.461" r="55.516"/>
+	</g>
+	<g id="Head">
+		<g>
+			<g>
+				<path fill="#CB8350" d="M469.494,615.543c0,38.5-31.5,70-70,70H295.643c-38.5,0-66.732-31.33-62.737-69.622l30.861-295.838
+					c3.995-38.292,38.763-69.622,77.263-69.622h58.465c38.5,0,70,31.5,70,70V615.543z"/>
+			</g>
+			<g>
+				<path fill="#CB8350" d="M460.505,675.539c0,55-45,100-100,100h-43.853c-55,0-95.331-44.757-89.625-99.46l24.637-236.162
+					c5.707-54.703,55.03-99.46,109.608-99.46s99.232,45,99.232,100V675.539z"/>
+			</g>
+		</g>
+		<rect x="343.073" y="249.462" fill="#CB8350" width="337.854" height="525.077"/>
+		<g>
+			<g>
+				<path fill="#CB8350" d="M554.506,614.543c0,38.5,31.5,70,70,70h103.852c38.5,0,66.731-31.33,62.737-69.622l-30.861-295.837
+					c-3.994-38.292-38.763-69.622-77.263-69.622h-58.465c-38.5,0-70,31.5-70,70V614.543z"/>
+			</g>
+			<g>
+				<path fill="#CB8350" d="M563.495,674.539c0,55,45,100,100,100h43.853c55,0,95.331-44.757,89.624-99.46l-24.636-236.161
+					c-5.707-54.703-55.03-99.46-109.608-99.46s-99.232,45-99.232,100V674.539z"/>
+			</g>
+		</g>
+	</g>
+	<g id="Eyes">
+		<g>
+			<g>
+				<circle fill="#57351E" cx="384.485" cy="418.485" r="27.485"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<circle fill="#58351D" cx="646" cy="418.485" r="27.485"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path fill="#58351D" d="M555.13,458.917c-6.129-8.213-37.111-12.134-43.13-12.834c-6.019,0.701-37,4.621-43.13,12.835
+					c-3.655,4.897-3.387,19.36,0,24.446c6.51,9.773,33.177,28.636,42.607,28.118c0.13-0.007,0,0.519,0,0.519
+					s0.192-0.094,0.523-0.258c0.331,0.164,0.523,0.258,0.523,0.258s-0.129-0.503,0-0.519c15.716-1.925,36.097-18.344,42.606-28.118
+					C558.518,478.277,558.786,463.815,555.13,458.917z"/>
+			</g>
+		</g>
+	</g>
+
+	<g>
+		<g>
+			<circle class="lid" fill="#CB8350" cx="646" cy="363" r="27.485"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<circle class="lid" fill="#CB8350" cx="384.485" cy="363" r="27.485"/>
+		</g>
+	</g>
+</g>
+</svg>
