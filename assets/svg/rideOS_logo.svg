@@ -7,9 +7,9 @@
 <defs>
     <style type="text/css"><![CDATA[
       	.route {
-		  animation: dash 10s ease infinite;
-		  stroke-dasharray: 3000; 
-		  stroke-dashoffset: 3000;
+		  animation: dash 12s ease infinite;
+		  stroke-dasharray: 150%; 
+		  stroke-dashoffset: 150%;
 		}
 
 		#route1 {
@@ -30,12 +30,14 @@
 
 		@keyframes dash {
 		  20% {
-		    stroke-dashoffset: -1100;
+		    stroke-dashoffset: -130%;
 		  }
 
-		  100% {
-		    stroke-dashoffset: -1100; 
-		  }
+          100% {
+            stroke-dashoffset: -130%;
+          }
+
+		  
 		}
     ]]></style>
 </defs>
@@ -82,18 +84,18 @@
 		<line fill="none" stroke="#908FB3" stroke-width="50" stroke-linejoin="round" stroke-miterlimit="10" x1="350.874" y1="793.165" x2="750.13" y2="793.165"/>
 </g>
 <g id="Layer_3" clip-path="url(#SVGID_2_)">
-	<polyline class="route" id="route1" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-miterlimit="10" points="14.092,632.372 
+	<polyline class="route" id="route1" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" points="14.092,632.372 
 		350.812,632.372 921.232,205.467 	"/>
 </g>
 <g id="Layer_4" clip-path="url(#SVGID_2_)">
-	<polyline class="route" id="route2" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-miterlimit="10" points="
+	<polyline class="route" id="route2" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" points="
 		1019.229,443.98 602.536,443.98 102.466,818.235 	"/>
 </g>
 <g id="Layer_5" clip-path="url(#SVGID_2_)">
-	<line class="route" id="route3" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-miterlimit="10" x1="350.874" y1="25.836" x2="350.874" y2="997.867"/>
+	<line class="route" id="route3" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" x1="350.874" y1="25.836" x2="350.874" y2="997.867"/>
 </g>
 <g id="Layer_6" clip-path="url(#SVGID_2_)">
-	<polyline class="route" id="route4" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-miterlimit="10" points="
+	<polyline class="route" id="route4" fill="none" stroke="#FFFFFF" stroke-width="60" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" points="
 		350.874,997.867 350.812,632.372 602.536,443.98 1019.229,443.98 	"/>
 </g>
 </svg>

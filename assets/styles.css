@@ -30,7 +30,7 @@ body {
 }
 
 #intro-image img {
-    width: 600px; 
+    width: 550px; 
     padding-left: 100px; 
 }
 
@@ -379,6 +379,14 @@ a {
 
 .fa-linkedin, .fa-facebook-square {
     transform: scale(1.25); 
+}
+
+.fab {
+    transition: 0.3s; 
+}
+
+.fab:hover {
+    transform: scale(1.4); 
 }
 
 
