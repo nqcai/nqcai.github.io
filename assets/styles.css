@@ -93,6 +93,11 @@ body {
     font-weight: 400; 
 }
 
+#about-title {
+    transform: translateY(-20px); 
+}
+
+
 #churro-container {
     padding-top: 100px; 
     padding-bottom: 100px; 
@@ -155,25 +160,39 @@ body {
 /* Line */
 .timeline {
     border-left: 4px solid #0a7e8c; 
+    transform: translateY(12px); 
 }
 
 .circle {
-    height: 30px; 
-    width: 30px; 
+    height: 4px; 
+    width: 4px; 
     border-radius: 15px; 
     background-color: #0a7e8c; 
     position: relative; 
 }
 
+.ring {
+    height: 4px; 
+    width: 4px; 
+    border-radius: 30px; 
+    border: 2px solid #0a7e8c;
+/*    transform: translateX(-19px); */
+}
+
 #circle1 {
-    left: -32px; 
-    top: -1px; 
+    transform: translate(-19px, 0px);
 }
 
 #circle2 {
-    left: -32px; 
-    top: 440px; 
-    
+    transform: translate(-19px, 466px);
+}
+
+#ring1 {
+    transform: translate(-19px, -4px); 
+}
+
+#ring2 {
+    transform: translate(-19px, 462px);
 }
 
 @media (max-width: 576px) {
@@ -215,6 +234,10 @@ body {
     font-weight: 600; 
     padding-bottom: 20px; 
     
+}
+
+#school-title, #work-title, #next-title {
+    transform: translateY(-20px);
 }
 
 .exp-inst-logo img {
@@ -296,6 +319,10 @@ body {
     }
 }
 
+#project-title {
+    transform: translateY(-20px);
+}
+
 .projects-row {
     padding-top: 30px; 
 }
@@ -311,15 +338,24 @@ body {
 }
 
 .project-tile {
-    height: 350px; 
+    height: 300px; 
     max-width: 350px; 
     border-radius: 15px; 
     text-align: center; 
+    transition: 0.5s; 
+}
+
+div .project-tile:hover {
+    transform: translateY(-10px); 
 }
 
 /* Footer */
 .footer-container {
     padding: 0; 
+}
+
+.footer-container img {
+    
 }
 
 .footer-rectangle {
@@ -360,6 +396,7 @@ body {
     margin-top: -25px; 
     margin-left: 20px; 
     border-bottom: 20px solid #F6D592; 
+/*    width: 10px; */
 }
 
 a {
@@ -386,8 +423,21 @@ a {
 }
 
 .fab:hover {
-    transform: scale(1.4); 
+    transform: scale(1.36); 
 }
+
+
+/* SCROLLING ANIMATIONS */
+/*
+#animation {
+  background: #000;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 50px auto;
+  position: relative;
+}
+*/
 
 
 
